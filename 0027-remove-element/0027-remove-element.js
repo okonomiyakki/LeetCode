@@ -6,9 +6,7 @@
 var removeElement = function(nums, val) {
     let k = 0
     for (let i = 0; i < nums.length; i++) {
-    if (nums[i] === val) {
-        nums[i] = 0;
-    }
+    if (nums[i] === val) nums[i] = 0;
     else k++
 }
 
